@@ -1,0 +1,544 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300i');
+
+body
+{
+    position: relative;
+    background-color: #e3e3e3;
+}
+
+article
+{
+    padding: 0;
+}
+
+hr
+{
+  height: 2px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+a
+{
+    color: #A22A22;
+}
+
+h3
+{
+    color: brown;
+    font-size: 2.2em;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+h4
+{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+span
+{
+   color: white;
+   font-family: 'Lato', sans-serif;
+}
+
+p a
+{
+    color: brown;
+}
+
+a:hover
+{
+    text-decoration: none;
+    color: rgb(128, 128, 128);
+}
+
+footer
+{
+  margin: 0;
+    bottom: 0;
+    clear: both;
+    position: fixed;
+    height: 40px;
+    padding: 8px 10px 0px 8px;
+    width: 100%;
+    box-shadow: 0 0 4px black;
+    background-color: #A22A22;
+}
+
+footer span
+{
+    float: right;
+}
+
+/* Form */
+
+.form-check-input
+{
+    text-align: center;
+}
+
+.form-control
+{
+    width: 150px;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+form input
+{
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+            box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+         -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+            transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+form textarea
+{
+    display: block;
+    width: 100%;
+    height: 400px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+            box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+         -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+            transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+/* Table */
+
+table
+{
+    margin-top: 20px;
+}
+
+table tr
+{
+    border-bottom-color: #A22A22;
+}
+
+.table-bordered>tbody>tr>td, .table-bordered>tfoot>tr>td, .table-bordered>thead>tr>td
+{
+    border: solid black 1px;
+    padding: 8px;
+    /*padding: 16px 6px 4px 6px;*/
+    text-align: center;
+}
+
+.margin-top-table
+{
+    margin-top: 50px;
+}
+
+.table-bordered>tbody>tr>th, .table-bordered>tfoot>tr>th, .table-bordered>thead>tr>th
+{
+    border: solid black 1px;
+    padding: 8px;
+    text-align: center;
+    background-color: #A22A22;
+    color: white;
+}
+
+.tabela
+{
+    overflow-y: scroll;
+    height: 87.5vh;
+    margin-bottom: 0px;
+    border: 10px black;
+}
+
+.select-margin
+{
+    margin-bottom: 10px;
+}
+
+.col-md-3
+{
+    padding: 0;
+}
+
+/* Navbar */
+nav
+{
+    box-shadow: 0 0 8px black;
+}
+
+nav ol
+{
+    width: 100%;
+    margin: 0;
+    box-shadow: 0 0 0px black;
+}
+
+.navbar-inverse .navbar-nav>li>a
+{
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.1em;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover
+{
+    color: white;
+}
+
+nav ol li span
+{
+    color: white;
+    margin: 0;
+    padding: 15px;
+}
+
+li span a
+{
+    color: #337ab7;
+}
+
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover
+{
+    background-color: brown;
+    transition-duration: 1s;
+}
+
+
+.navbar-brand
+{
+    font-family: 'Lato', sans-serif;
+    font-size: 1.8em;
+    color: white;
+    padding: 14px 0 0 0;
+}
+
+.navbar-brand-logo
+{
+    margin: 5px 2px 5px 20px;
+    color: white;
+    width: 40px;
+    float: left;
+}
+
+.navbar-brand-logo1
+{
+    margin: 5px 15px 5px 10px;
+    color: white;
+    width: 40px;
+    float: left;
+}
+
+.navbar-inverse .navbar-brand
+{
+    color: white;
+}
+
+.navbar-inverse
+{
+    color: white;
+    background-color: #A22A22;
+    border: 0;
+    border-radius: 0;
+}
+
+.affix
+{
+  top:0;
+  width: 100%;
+  z-index: 9999 !important;
+}
+
+.affix ~ .container-fluid
+{
+  position: relative;
+  top: 50px;
+}
+
+/* Buttons */
+
+.btn-primary
+{
+    background-color: brown;
+}
+
+.btn-primary:hover
+{
+    background-color: #A22A22;
+    transition-duration: 0.8s;
+}
+
+.btn
+{
+    margin: 10px 0;
+}
+
+.button-div
+{
+    float: right;
+    margin-top: 22px;
+}
+
+.button-style
+{
+    background-color: brown;
+    padding: 10px 10px;
+    color: white;
+    font-size: 1em;
+    border: black 1px solid;
+    display: inline-block;
+    margin: 5px 0 10px 0;
+    border-radius: 0;
+}
+
+.button-style2
+{
+    background-color: brown;
+    padding: 10px 40px;
+    color: white;
+    font-size: 1em;
+    box-shadow: 0 0 4px black;
+    display: inline-block;
+    margin: 5px 20px 5px 5px;
+    border: 0;
+    border-radius: 0;
+    float: right;
+}
+
+.button-style3
+{
+    background-color: brown;
+    padding: 8px 10px;
+    color: white;
+    font-size: 1em;
+    box-shadow: 0 0 4px black;
+    display: inline-block;
+    margin: 5px;
+    border: 0;
+    border-radius: 0;
+    max-width: 200px;
+
+}
+
+.button-style:hover
+{
+    color: white;
+    text-decoration: none;
+}
+
+/* Position */
+
+.margin
+{
+    margin: 15px 0 0 10px;
+    padding-left: 10px;
+}
+
+.margin1
+{
+    margin: 13px 0 0 10px;
+    padding-left: 10px;
+}
+
+.right
+{
+    float: right;
+}
+
+.table-margin
+{
+    margin-top: 0;
+}
+
+.left
+{
+    float: left;
+    margin-left: 5px;
+}
+
+.margin-left
+{
+    margin-left: 80%;
+}
+
+.card
+{
+    width: 340px;
+    background-color: #F7F7F7;
+    /* just in case there no content*/
+    padding: 12px 50px 25px;
+    margin: 0% 0 5% 60%;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    opacity: 0.7;
+}
+
+.conteiner
+{
+    padding: 15% 0 0 0;
+    z-index: 9999;
+}
+
+.background
+{
+    background-image: url("../media/japko.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+}
+
+.bottom_footer p
+{
+    padding: 12px 80px;
+    color: white;
+    margin: 0;
+    font-size: 0.9em;
+}
+
+/* Others */
+
+.border
+{
+    border-left: solid 2px grey;
+}
+
+.underline
+{
+    text-decoration: underline;
+}
+
+.logpanel
+{
+    padding: 10px 3% 0 0;
+    font-size: 1.7em;
+}
+
+.row .text-center h1
+{
+    padding: 100px 0;
+}
+
+.bg-color
+{
+    background-color: grey;
+}
+
+@media screen and (max-width: 768px)
+{
+  .border
+  {
+      border-left: 0;
+  }
+
+  .margin
+  {
+      padding-left: 0;
+  }
+}
+
+@media screen and (max-width: 900px)
+{
+  .card
+  {
+      width: 340px;
+      background-color: #F7F7F7;
+      padding: 15px 40px 25px;
+      margin: 0% 5% 5% 30%;
+      -moz-border-radius: 8px;
+      -webkit-border-radius: 8px;
+      border-radius: 8px;
+      -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+      -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+      box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+      opacity: 0.8;
+  }
+
+  .conteiner
+  {
+      padding: 14% 0 0 0;
+  }
+
+  .nav>li>a
+  {
+      padding: 15px 7px;
+  }
+
+  nav ol li span
+  {
+      padding: 15px 6px 15px 6px;
+  }
+}
+
+@media screen and (max-width: 600px)
+{
+
+  .card
+  {
+      width: 340px;
+      background-color: #F7F7F7;
+      /* just in case there no content*/
+      padding: 15px 40px 25px;
+      margin: 0 auto;
+      /* shadows and rounded borders */
+      -moz-border-radius: 8px;
+      -webkit-border-radius: 8px;
+      border-radius: 8px;
+      -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+      -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+      box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+      opacity: 0.8;
+  }
+
+  .conteiner
+  {
+      padding: 30% 0 0 0;
+  }
+
+}
+
+@media screen and (max-width: 445px)
+{
+
+  .card
+  {
+      width: 340px;
+      background-color: #F7F7F7;
+      /* just in case there no content*/
+      padding: 15px 40px 25px;
+      margin: 0 auto;
+      /* shadows and rounded borders */
+      -moz-border-radius: 8px;
+      -webkit-border-radius: 8px;
+      border-radius: 8px;
+      -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+      -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+      box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+      opacity: 0.8;
+  }
+
+  .conteiner
+  {
+      padding: 40% 0 0 0;
+  }
+
+}

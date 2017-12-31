@@ -1,1 +1,1 @@
-# internat
+# dziennik_internat
