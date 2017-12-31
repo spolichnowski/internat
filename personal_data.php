@@ -17,7 +17,9 @@ function plec($plec)
 $comments = array();
 $row = $result->fetch_row();
 echo
-'<table class="table table-bordered table-hover table-margin">
+'
+<br>
+<table class="table table-bordered table-hover table-margin">
 	<tr>
 		<th class="col-md-3">Imię</th>
 		<td>'.$row[1].'</td>
